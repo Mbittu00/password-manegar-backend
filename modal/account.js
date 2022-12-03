@@ -5,13 +5,15 @@ let accountSchema = mongoose.Schema(
     userId: {
       type: String,
       required: true,
+    },iv:{
+      type:String,
+      required:true
     },
     name: {
       type: String,
     },
     username: {
       type: String,
-      required: true,
     },
     email: {
       type: String,
@@ -24,7 +26,6 @@ let accountSchema = mongoose.Schema(
     },
     password: {
       type: String,
-      required: true,
     },
     app: {
       type: String,

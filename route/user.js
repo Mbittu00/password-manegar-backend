@@ -65,7 +65,7 @@ if(find){
   res.status(500).send({ msg: "somethig is worng" });
 }
   }catch(e){
-        res.status(500).send({ msg: "somethig is worng" });
+        res.status(500).send('verify',{ msg: "somethig is worng" });
     console.log(e);
   }
 })
