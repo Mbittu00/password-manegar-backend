@@ -12,6 +12,9 @@ let userSchema=mongoose.Schema({
     type:String,
     default:'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png'
     //required:true
+  },email:{
+    type:String,
+    required:true
   }
 },{timestamps:true})
 
